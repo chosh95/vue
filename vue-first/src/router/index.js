@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue'
 import DataBinding from '../views/DataBinding.vue'
 import NestedComponent from '../views/NestedComponent.vue';
 import SlotUseModal from "@/views/SlotUseModal.vue";
+import OptionCalculator from "@/views/OptionCalculator.vue";
+import CompositionCalculator from "@/views/CompositionCalculator.vue";
 
 const routes = [
     {
@@ -32,6 +34,16 @@ const routes = [
         path: '/slot',
         name: 'SlotUseModal',
         component: SlotUseModal
+    },
+    {
+        path: '/optionCalculator',
+        name: 'optionCalculator',
+        component: OptionCalculator
+    },
+    {
+        path: '/compositionCalculator',
+        name: 'compositionCalculator',
+        component: CompositionCalculator
     }
 ]
 

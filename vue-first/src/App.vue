@@ -9,6 +9,10 @@
         <router-link to="/nested">Nested Component</router-link>
         |
         <router-link to="/slot">Slot</router-link>
+        |
+        <router-link to="/optionCalculator">Option Calculator</router-link>
+        |
+        <router-link to="/compositionCalculator">Composition Calculator</router-link>
     </nav>
     <router-view/>
 </template>

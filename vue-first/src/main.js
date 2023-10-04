@@ -7,3 +7,8 @@ const app = createApp(App);
 app.use(router);
 app.mixin(mixins);
 app.mount('#app');
+app.directive('focus', {
+    mounted(el) {
+        el.focus();
+    }
+})
