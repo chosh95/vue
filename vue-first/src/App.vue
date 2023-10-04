@@ -5,6 +5,10 @@
         <router-link to="/about">About</router-link>
         |
         <router-link to="/databinding">Data Binding</router-link>
+        |
+        <router-link to="/nested">Nested Component</router-link>
+        |
+        <router-link to="/slot">Slot</router-link>
     </nav>
     <router-view/>
 </template>
@@ -31,3 +35,5 @@ nav a.router-link-exact-active {
     color: #42b983;
 }
 </style>
+<script>
+</script>

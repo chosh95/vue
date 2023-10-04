@@ -1,6 +1,8 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import DataBinding from '../views/DataBinding.vue'
+import NestedComponent from '../views/NestedComponent.vue';
+import SlotUseModal from "@/views/SlotUseModal.vue";
 
 const routes = [
     {
@@ -20,6 +22,16 @@ const routes = [
         path: '/databinding',
         name: 'DataBinding',
         component: DataBinding
+    },
+    {
+        path: '/nested',
+        name: 'NestedComponent',
+        component: NestedComponent
+    },
+    {
+        path: '/slot',
+        name: 'SlotUseModal',
+        component: SlotUseModal
     }
 ]
 
